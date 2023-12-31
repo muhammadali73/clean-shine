@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto+Slab:wght@100&family=Rubik+Doodle+Shadow&family=Rubik+Lines&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30bec55b03.js" crossorigin="anonymous"></script>
+    <title>CLEAN & SHINE</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body {
+            background-color: #AEF2E6;
+        }
+        .container0 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+        .container,
+        .service {
+            width: 100%;
+        }
+        .container0 {
+            display: flex;
+            flex-wrap: wrap;
+            height: 620px;
+            width: 1365px;
+        }
+
+        .container {
+            display: block;
+            margin-right: 0px;
+            padding-right: 0px;
+            width: 100%;
+            height: 100%;
+
+        }
+
+
+        .navbar {
+            background-color: #ffffff;
+            height: 14%;
+            width: 100%;
+        }
+
+        .nav{
+            text-decoration: none;
+            float: right;
+            font-family: 'Roboto Slab', serif;
+            font-size: 1.3rem;
+            font-weight: bolder;
+            list-style: none;
+            position: relative;
+            left: -225px;
+            top: -117px;
+            margin: 30px;
+            color: black;
+        }
+        li{
+            list-style: none;
+        }
+        .nav::after {
+            content: "";
+            display: block;
+            width: 0%;
+            height: 3.5px;
+            background-color: #009688;
+            transition: width .5s;
+        }
+
+        .nav:hover::after {
+            width: 100%;
+            transition: width .5s;
+        }
+
+        .nav:hover {
+            color: #009688;
+        }
+
+        #brand {
+            position: relative;
+            top: -58px;
+            left: 83px;
+            width: 300px;
+        }
+
+
+        #logo {
+            height: 80px;
+            width: 80px;
+
+        }
+
+        #btn {
+            float: right;
+            position: relative;
+            left: 310px;
+            top: -88px;
+            height: 30px;
+            width: 90px;
+            border-radius: 15px;
+            color: #ffffff;
+            font-weight: bolder;
+            background: transparent;
+            border: none;
+            background-color: #44C8B2;
+            cursor: pointer;
+        }
+
+        #btn:hover {
+            box-shadow: 4px 2px 10px black;
+        }
+
+        .hero {
+            display: block;
+            width: 100%;
+            height: 85%;
+        }
+
+        #hero-item {
+            position: relative;
+            font-size: 3rem;
+            color: #1E1D22;
+            left: 150px;
+            top: 180px;
+            width: 89%;
+        }
+
+        #hero-para {
+            position: relative;
+            left: 230px;
+            top: 190px;
+            font-size: larger;
+            font-weight: bold;
+            width: 83%;
+        }
+
+        #hero-btn1 {
+            position: relative;
+            left: 220px;
+            top: -160px;
+            height: 30px;
+            width: 90px;
+            border-radius: 15px;
+            color: #ffffff;
+            font-weight: bolder;
+            background: transparent;
+            border: none;
+            background-color: #3ED1BA;
+            cursor: pointer;
+
+
+        }
+
+        #hero-btn1:hover {
+            box-shadow: 4px 2px 10px black;
+        }
+
+        #hero-btn2 {
+            position: relative;
+            left: 250px;
+            top: -160px;
+            height: 30px;
+            width: 90px;
+            border-radius: 15px;
+            color: #ffffff;
+            font-weight: bolder;
+            background: transparent;
+            border: none;
+            background-color: #3ED1BA;
+            cursor: pointer;
+        }
+
+        #hero-btn2:hover {
+            box-shadow: 4px 2px 10px black;
+        }
+
+        #hero-image {
+            height: 400px;
+            width: 480px;
+            position: relative;
+            left: 600px;
+            top: 12px;
+        }
+
+        #hero-image:hover {
+            background-image: url(http://4.bp.blogspot.com/-waPkE8lnAp8/UcrjdToS2fI/AAAAAAAABN4/LaA4VAe_bTU/s320/Water+Effect+set+3+frostbo.deviantart.com+02.png);
+            background-repeat: no-repeat;
+            background-position: -210px 10px;
+            background-image: url(http://4.bp.blogspot.com/-waPkE8lnAp8/UcrjdToS2fI/AAAAAAAABN4/LaA4VAe_bTU/s320/Water+Effect+set+3+frostbo.deviantart.com+02.png);
+            background-repeat: no-repeat;
+            background-position: -160px 10px;
+        }
+
+        .para {
+            display: block;
+            background-color: #ffffff;
+            width: 100%;
+            height: 40%;
+        }
+
+        #lines {
+            position: relative;
+            left: 50px;
+            top: 11px;
+            font-family: 'Roboto Slab', serif;
+            font-weight: bolder;
+            color: #242323;
+            font-size: 2.1rem;
+            padding: 40px;
+            width: 90%;
+        }
+
+
+        #lines-write {
+            position: relative;
+            font-family: 'Roboto Slab', serif;
+            color: #242323;
+            left: 1000px;
+            top: -20px;
+            width: 21%;
+        }
+
+        .steps {
+            display: block;
+            background-color: #AEF2E6;
+            width: 100%;
+            height: 50%;
+        }
+
+        #steps-head {
+            font-weight: lighter;
+            color: #000000;
+            font-family: 'Roboto Slab', serif;
+            text-align: center;
+            position: relative;
+            top: 70px;
+        }
+
+        .box-number {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            position: relative;
+            top: 150px;
+            flex-direction: row;
+            align-items: center;
+        }
+
+
+        .box {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            border: 1px solid #000;
+            display: flex;
+            align-items: center;
+            font-weight: bolder;
+            left: -32px;
+            font-size: 28px;
+
+
+        }
+
+        .box4 {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            border: 1px solid #000;
+            display: flex;
+            align-items: center;
+            font-weight: bolder;
+            left: -35px;
+            font-size: 28px;
+
+
+        }
+
+        span {
+            position: relative;
+            left: 20px;
+        }
+
+        /* Style for the connecting line */
+        .line {
+            width: 200px;
+            /* Adjust the width as needed */
+            height: 1px;
+            position: absolute;
+            left: 100px;
+            background-color: grey;
+
+        }
+
+        #book {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
+            color: #1E1D22;
+            position: relative;
+            left: -18px;
+            top: 60px;
+        }
+
+        #getaquote {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
+            color: #1E1D22;
+            position: relative;
+            left: -59px;
+            top: 60px;
+            white-space: nowrap;
+        }
+
+        #clean {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
+            color: #1E1D22;
+            position: relative;
+            left: -21px;
+            top: 60px;
+        }
+
+        #enjoy {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
+            color: #1E1D22;
+            position: relative;
+            left: -18px;
+            top: 60px;
+        }
+
+        .paragraph1 {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 10px;
+            position: relative;
+            top: 90px;
+            right: 130px;
+            white-space: nowrap;
+            color: #1E1D22;
+            font-size: 15px;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .paragraph2 {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 10px;
+            position: relative;
+            top: 90px;
+            right: 208px;
+            white-space: nowrap;
+            color: #1E1D22;
+            font-size: 15px;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .paragraph3 {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 10px;
+            position: relative;
+            top: 100px;
+            right: 150px;
+            white-space: nowrap;
+            color: #1E1D22;
+            font-size: 15px;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .paragraph4 {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 10px;
+            position: relative;
+            top: 90px;
+            right: 120px;
+            white-space: nowrap;
+            color: #1E1D22;
+            font-size: 15px;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .service {
+            display: block;
+            height: 970px;
+            width: 100%;
+            position: relative;
+            background-color: #ffffff;
+            top: 315px;
+        }
+
+        #service-head {
+            position: relative;
+            top: 70px;
+            left: 50px;
+            font-family: 'Roboto Slab', serif;
+            font-size: 2.4rem;
+            color: #1E1D22;
+            width: 96%;
+        }
+
+        #service-para {
+            position: relative;
+            top: 90px;
+            left: 50px;
+            font-family: 'Roboto Slab', serif;
+            font-weight: bolder;
+            color: #1E1D22;
+            width: 96%;
+        }
+
+        .overlay1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 280px;
+            width: 660px;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .overlay2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 280px;
+            width: 660px;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .overlay3 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 300px;
+            width: 440px;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .overlay4 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 300px;
+            width: 440px;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .overlay5 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 300px;
+            width: 430px;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        .container1 {
+            position: relative;
+            top: 200px;
+            width: 98%;
+            height: 300px;
+            left: 10px;
+        }
+
+
+        .image1 {
+            height: 280px;
+            width: 660px;
+
+        }
+
+        .text1 {
+            position: absolute;
+            top: 48%;
+            left: 24.5%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .container2 {
+            position: relative;
+            width: 50%;
+            height: 300px;
+            top: -100px;
+            left: 680px;
+        }
+
+
+        .image2 {
+            height: 280px;
+            width: 660px;
+
+        }
+
+        .text2 {
+            position: absolute;
+            top: 50%;
+            left: 47%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .container3 {
+            position: relative;
+            top: -110px;
+            left: 10px;
+            width: 99%;
+            height: 300px;
+        }
+
+
+        .image3 {
+            height: 300px;
+            width: 440px;
+        }
+
+        .text3 {
+            position: absolute;
+            top: 50%;
+            left: 16%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .container4 {
+            position: relative;
+            left: 460px;
+            top: -410px;
+            width: 66%;
+            height: 300px;
+        }
+
+
+        .image4 {
+            height: 300px;
+            width: 440px;
+        }
+
+        .text4 {
+            position: absolute;
+            top: 50%;
+            left: 24%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .container5 {
+            position: relative;
+            top: -710px;
+            left: 910px;
+            width: 33%;
+            height: 300px;
+        }
+
+
+        .image5 {
+            height: 300px;
+            width: 430px;
+        }
+
+        .text5 {
+            position: absolute;
+            top: 50%;
+            left: 46%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .subscribe {
+            height: 350px;
+            width: 100%;
+            position: relative;
+            top: 240px;
+            background-color: #AEF2E6;
+        }
+
+        #subscribe-head {
+            color: #1E1D22;
+            position: relative;
+            font-family: 'Roboto Slab', serif;
+            top: 80px;
+            left: 30px;
+            width: 97%;
+        }
+
+        #subscribe-para {
+            position: relative;
+            font-weight: 900;
+            font-family: 'Roboto Slab', serif;
+            top: 100px;
+            left: 30px;
+            width: 96%;
+        }
+
+        #subscribe-name {
+            padding: 10px;
+            height: 30px;
+            width: 120px;
+            font-size: large;
+        }
+
+        #subscribe-email {
+            padding: 10px;
+            height: 30px;
+            width: 120px;
+            font-size: large;
+            margin: 10px;
+        }
+
+        form {
+            position: relative;
+            left: 75px;
+            top: 130px;
+            width: 94%;
+        }
+
+        #subscribe-btn {
+            height: 40px;
+            width: 120px;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bolder;
+            background-color: #3ED1BA;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #subscribe-btn:hover {
+            box-shadow: 4px 2px 10px black;
+        }
+
+        #subscribe-image {
+            height: 200px;
+            width: 200px;
+            position: relative;
+            top: -30px;
+            left: 950px;
+        }
+
+        .why {
+            height: 550px;
+            width: 100%;
+            position: relative;
+            top: 250px;
+            background-color: #ffffff;
+        }
+
+        #why-head {
+            position: relative;
+            left: 40px;
+            top: 80px;
+            font-weight: 900;
+            font-family: 'Roboto Slab', serif;
+            width: 97%;
+        }
+
+        #why-para {
+            position: relative;
+            left: 50px;
+            top: 100px;
+            font-weight: 900;
+            font-family: 'Roboto Slab', serif;
+            width: 96%;
+        }
+
+        #why-image1 {
+            position: relative;
+            left: 100px;
+            top: 160px;
+            height: 150px;
+            width: 150px;
+        }
+
+        #why-head1 {
+            position: relative;
+            left: 90px;
+            top: 170px;
+            font-weight: 500;
+            width: 93%;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        #why-image2 {
+            position: relative;
+            left: 395px;
+            top: -25px;
+            height: 150px;
+            width: 150px;
+        }
+
+        #why-head2 {
+            position: relative;
+            left: 392px;
+            top: -15px;
+            font-weight: 500;
+            width: 71%;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        #why-image3 {
+            position: relative;
+            left: 700px;
+            top: -210px;
+            height: 150px;
+            width: 150px;
+        }
+
+        #why-head3 {
+            position: relative;
+            left: 690px;
+            top: -200px;
+            font-weight: 500;
+            width: 48%;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        #why-image4 {
+            position: relative;
+            left: 1020px;
+            top: -395px;
+            height: 150px;
+            width: 150px;
+        }
+
+        #why-head4 {
+            position: relative;
+            left: 1015px;
+            top: -385px;
+            font-weight: 500;
+            width: 24%;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .imgs {
+            position: relative;
+            left: 30px;
+            top: 20px;
+            width: 97%;
+            height: 460px;
+        }
+
+        .map {
+            position: relative;
+            top: 250px;
+            width: 100%;
+            height: 580px;
+        }
+
+        #map-head {
+            position: relative;
+            font-weight: 900;
+            font-family: 'Roboto Slab', serif;
+            top: 80px;
+            left: 40px;
+            width: 97%;
+
+
+        }
+
+        #map-para {
+            position: relative;
+            font-weight: 900;
+            font-family: 'Roboto Slab', serif;
+            top: 100px;
+            left: 50px;
+            width: 96%;
+        }
+
+        #map-name {
+            padding: 10px;
+            height: 40px;
+            width: 280px;
+            font-size: 18px;
+        }
+
+        #map-email {
+            padding: 10px;
+            height: 40px;
+            width: 280px;
+            font-size: 18px;
+        }
+
+        #map-message {
+            height: 40px;
+            width: 280px;
+            resize: both;
+            overflow: auto;
+            font-size: 18px;
+            padding: 10px;
+            padding-bottom: 100px;
+
+        }
+
+        #map-btn {
+            height: 50px;
+            width: 300px;
+            border-radius: 30px;
+            color: #ffffff;
+            background-color: #44C8B2;
+            border: none;
+            font-size: 18px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        #map-btn:hover {
+            box-shadow: 4px 2px 10px black;
+        }
+
+        #map-form {
+            position: relative;
+            top: 150px;
+            left: 60px;
+        }
+
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 280px;
+            width: 580px;
+            left: 400px;
+            top: -200px;
+        }
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none;
+            height: 280px;
+            width: 580px;
+            cursor: pointer;
+        }
+
+        #map-para1 {
+            position: relative;
+            left: 990px;
+            top: -475px;
+        }
+
+        #map-para2 {
+            position: relative;
+            left: 990px;
+            top: -475px;
+        }
+
+        #map-para3 {
+            position: relative;
+            left: 990px;
+            top: -475px;
+        }
+
+        #map-para4 {
+            position: relative;
+            left: 990px;
+            top: -475px;
+        }
+
+        .last {
+            position: relative;
+            left: 550px;
+            width:300px;
+            top: 2500px;
+
+        }
+
+        .fa-facebook{
+            border: none;
+            border-radius: 20px;
+        }
+        #font-f:hover{
+            font-size: 30px;
+        }
+        .fa-github{
+            border: none;
+            border-radius: 20px;
+        }
+        #font-g:hover{
+            font-size: 30px;
+        }
+        .fa-youtube{
+            border: none;
+            border-radius: 20px;
+        }
+        #font-y:hover{
+            font-size: 30px;
+        }
+        .fa-twitter{
+            border: none;
+            border-radius: 20px;
+        }
+        #font-t:hover{
+            font-size: 30px;
+        }
+        
+        #font-f {
+            text-decoration: none;
+            color: #0866FF;
+            margin: 10px;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 23px;
+        }
+        #font-g {
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 23px;
+        }
+        #font-t {
+            text-decoration: none;
+            color: #149ff0;
+            margin: 10px;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 23px;
+        }
+        #font-y {
+            text-decoration: none;
+            color: #FD0000;
+            margin: 10px;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 23px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container0">
+        <div id="home" class="container">
+            <div class="navbar">
+                <video autoplay loop muted id="logo" >
+                    <source src="/clean.mp4">
+                  </video>
+                <h1 id="brand"><i>Clean & Shine</i></h1>
+                <li><a class="nav" id="contact" href="#Contact">Contact</a></li>
+                <li><a class="nav" id="about" href="#services">Services</a></li>
+                <li><a class="nav" id="home" href="#home">Home</a></li>
+                <button id="btn" type="button"><span></span>Book Now!</button>
+            </div>
+            <div class="hero">
+                <h1 id="hero-item" class="fade-in">CLEAN & SHINE</h1>
+                <p id="hero-para" class="fade-in">"Let's Shine Together"</p>
+                <button id="hero-btn1" type="button" class="fade-in">Log In</button>
+                <button id="hero-btn2" type="button" class="fade-in">Sign In</button>
+                <img src="https://i.postimg.cc/Hkr3yhN4/clean-clipart-cleaner-background-18-removebg-preview.png" alt="" id="hero-image" class="fade-in">
+            </div>
+        </div>
+        <div class="para">
+            <h1 id="lines">Clean Home. Professional Service. Fair Price. <br>
+                Expert house cleaning service you can trust.</h1><br>
+            <h1 id="lines-write">~ CLEAN & SHINE​</h1>
+        </div>
+        <div class="steps">
+            <h1 id="steps-head">Clean & Shine works in 4 simple steps</h1>
+
+            <div class="box-number">
+                <div class="box">
+                    <span>1</span>
+                    <div class="line"></div>
+                    <h4 id="book">Book</h4>
+                    <p class="paragraph1">Tell us when and where.</p>
+                </div>
+                <div class="box">
+                    <span>2</span>
+                    <div class="line"></div>
+                    <h4 id="getaquote">Get A Quote</h4>
+                    <p class="paragraph2">All you need to know.</p>
+                </div>
+                <div class="box">
+                    <span>3</span>
+                    <div class="line"></div>
+                    <h4 id="clean">Clean</h4>
+                    <p class="paragraph3">Expert cleaning by our Clean <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
+                        Shine
+                        Partners.</p>
+                </div>
+                <div class="box4">
+                    <span>4</span>
+                    <h4 id="enjoy">Enjoy</h4>
+                    <p class="paragraph4">Relax and have fun.</p>
+                </div>
+            </div>
+            <div id="services" class="service">
+                <h1 id="service-head">Services</h1>
+                <p id="service-para">Every project is different. Every client is special.</p>
+                <div class="container1">
+                    <div class="overlay1"></div>
+                    <img src="https://i.postimg.cc/Twxx3TR6/ser1.png" alt="Image" class="image2">
+                    <p class="text1">Subscription Cleaning</p>
+                </div>
+                <div class="container2">
+                    <div class="overlay2"></div>
+                    <img src="https://i.postimg.cc/Twxx3TR6/ser1.png" alt="Image" class="image2">
+                    <p class="text2">Upholstery Cleaning</p>
+                </div>
+                <div class="container3">
+                    <div class="overlay3"></div>
+                    <img src="https://i.postimg.cc/3wJWJj91/ser3.png" alt="Image" class="image3">
+                    <p class="text3">Upholstery Cleaning</p>
+                </div>
+                <div class="container4">
+                    <div class="overlay4"></div>
+                    <img src="https://i.postimg.cc/gkYC7M0g/ser4.png" alt="Image" class="image4">
+                    <p class="text4">Deep Cleaning</p>
+                </div>
+                <div class="container5">
+                    <div class="overlay5"></div>
+                    <img src="https://i.postimg.cc/sxKNyr2w/ser5.png" alt="Image" class="image5">
+                    <p class="text5">Professional Organizing</p>
+                </div>
+            </div>
+            <div class="subscribe">
+                <h1 id="subscribe-head">Subscribe</h1>
+                <p id="subscribe-para">We'll get in touch with you soon.</p>
+                <form action="">
+                    <input id="subscribe-name" type="name" required placeholder="Name">
+                    <input id="subscribe-email" type="email" required placeholder="Email">
+                    <button type="submit" id="subscribe-btn">Submit</button>
+                </form>
+                <img src="https://i.postimg.cc/05LTk8ZH/Screenshot-46.png" alt="Error" id="subscribe-image">
+            </div>
+            <div class="why">
+                <h1 id="why-head">Why choose Clean & Shine?</h1>
+                <p id="why-para">Experience the difference.</p>
+                <div class="imgs">
+                    <img id="why-image1" src="https://i.postimg.cc/zD6rywD7/Screenshot-47-removebg-preview.png" alt="">
+                    <h2 id="why-head1">PROFESSIONAL</h2>
+                    <img id="why-image2" src="https://i.postimg.cc/L5L29hP2/Screenshot-48-removebg-preview.png" alt="">
+                    <h2 id="why-head2">AFFORDABLE</h2>
+                    <img id="why-image3" src="https://i.postimg.cc/yxqCMRS2/Screenshot-49-removebg-preview.png" alt="">
+                    <h2 id="why-head3">SAFE & SECURE</h2>
+                    <img id="why-image4" src="https://i.postimg.cc/zGdZJ6gC/Screenshot-50-removebg-preview.png" alt="">
+                    <h2 id="why-head4">GUARANTEED <br>SATISFACTION</h2>
+                </div>
+            </div>
+            <div id="Contact" class="map">
+                <h1 id="map-head">Book Now!</h1>
+                <p id="map-para">One call cleans it all.</p>
+                <form id="map-form" action="">
+                    <input type="text" id="map-name" required placeholder="Name"><br><br>
+                    <input type="email" id="map-email" required placeholder="Email"><br><br>
+                    <input type="text" id="map-message" required placeholder="Message"><br><br>
+                    <button id="map-btn" type="submit">Submit</button>
+                </form>
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="580" height="280" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=mountAIN%20VIEW&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://123movies-i.net"></a><br>
+                    </div>
+                </div>
+                <p class="fa-solid fa-location-dot" id="map-para1">&nbsp;&nbsp;510 Glenview, Detroit, Michigan</p>
+                <br><br>
+                <p class="fa-regular fa-clock" id="map-para2">&nbsp;&nbsp;Mon to Sun: 8:00 AM to 5:00 PM</p><br><br>
+                <p class="fa-solid fa-mobile-screen-button" id="map-para3">&nbsp;&nbsp;321-555-5555</p><br><br>
+                <p class="fa-regular fa-envelope" id="map-para4">&nbsp;&nbsp;info@company.com</p><br><br>
+            </div>
+        </div>
+        <div class="last">
+            <a href="https://www.facebook.com/bmjdigitaleducation" target="_blank" class="fa-brands fa-facebook" id="font-f"></a>
+            <a href="https://github.com/muhammadali73" target="_blank" class="fa-brands fa-github" id="font-g"></a>
+            <a href="https://www.youtube.com/@bmjdigitaleducation" class="fa-brands fa-youtube" target="_blank" id="font-y"></a>
+            <a href="https://twitter.com/" class="fa-brands fa-twitter" target="_blank" id="font-t"></a>
+        </div>
+    </div>
+</body>
+<!-- Include this script at the end of the <body> tag -->
+<script>
+    const elements = document.querySelectorAll('.fade-in');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    });
+
+    elements.forEach(element => {
+        observer.observe(element);
+    });
+</script>
+
+
+</html>
